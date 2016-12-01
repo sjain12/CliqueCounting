@@ -1,0 +1,4 @@
+test_cliques_color_coding.o .deps/test_cliques_color_coding.dep: test_cliques_color_coding.cpp \
+  ../Escape/GraphIO.h ../Escape/ErrorCode.h ../Escape/Graph.h \
+  ../Escape/Digraph.h ../Escape/CliquesColorCoding.h ../Escape/Utils.h \
+  ../Escape/nCr.h ../Escape/CliqueHelper.h ../Escape/JointSort.h

@@ -1,0 +1,4 @@
+test_cliques_graft.o .deps/test_cliques_graft.dep: test_cliques_graft.cpp ../Escape/GraphIO.h \
+  ../Escape/ErrorCode.h ../Escape/Graph.h ../Escape/Digraph.h \
+  ../Escape/CliquesGraft.h ../Escape/Utils.h ../Escape/nCr.h \
+  ../Escape/CliqueHelper.h ../Escape/JointSort.h

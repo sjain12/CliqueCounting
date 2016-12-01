@@ -1,0 +1,4 @@
+test_cliques_brute_force.o .deps/test_cliques_brute_force.dep: test_cliques_brute_force.cpp \
+  ../Escape/GraphIO.h ../Escape/ErrorCode.h ../Escape/Graph.h \
+  ../Escape/Digraph.h ../Escape/CliquesBruteForce.h ../Escape/Utils.h \
+  ../Escape/nCr.h ../Escape/CliqueHelper.h ../Escape/JointSort.h

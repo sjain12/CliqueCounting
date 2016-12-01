@@ -1,0 +1,5 @@
+test_cliques_turan_shadow.o .deps/test_cliques_turan_shadow.dep: test_cliques_turan_shadow.cpp \
+  ../Escape/GraphIO.h ../Escape/ErrorCode.h ../Escape/Graph.h \
+  ../Escape/Digraph.h ../Escape/CliquesTuranShadow.h \
+  ../Escape/CliqueHelper.h ../Escape/Utils.h ../Escape/nCr.h \
+  ../Escape/JointSort.h
