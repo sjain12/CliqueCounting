@@ -49,7 +49,6 @@ for i in range(2,len(sys.argv)):   # Loop over arguments
             mapping[tokens[0]] = ind    # Introduce new node to mapping
             node1 = ind
             ind = ind+1                 # Increment the index
-
         if tokens[1] in mapping:    # Perform same task for second node name
             node2 = mapping[tokens[1]]
         else:
@@ -62,7 +61,7 @@ for i in range(2,len(sys.argv)):   # Loop over arguments
     
     #f_output.write(str(len(G.vertices))+' ')
     f_output.write(str(ind)+' ')
-	m = 0;
+    m = 0;
     for node in G.vertices:
         m = m + G.degrees[node]
     m = m/2
